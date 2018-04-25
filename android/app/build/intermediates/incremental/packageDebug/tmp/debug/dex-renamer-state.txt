@@ -1,4 +1,4 @@
-#Wed Apr 25 09:04:19 BRT 2018
+#Wed Apr 25 16:50:39 BRT 2018
 base.0=/home/julioceron/Documentos/React_projects/rn-course/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
