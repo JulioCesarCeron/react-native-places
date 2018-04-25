@@ -1,0 +1,244 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-navigation] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-vector-icons] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.54.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/96789ee458444c483c777ff396b5d2c4/AndroidManifest.xml:2:1-15:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/3d19061e5ac7106c3a60c4c126ba837c/AndroidManifest.xml:2:1-14:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/julioceron/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/2a5d722c912d383623a9b10916d49036/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/d36463eb09ef1d2ed7badb2f7b047979/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/8f6df2b35daac622326b910fc71219f9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/968f45aa609361c858dc98f8504b3ee5/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/33ef055f3ec566749c6f3325e3f19fc4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/75e6383b464fe0e4281702a8b686db98/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/8249be07aad94e99402f377a56e1179b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/e6af14fd8f919710396494d701a09ac0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/83fc46988d166871100daad7066f7066/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /home/julioceron/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/5fecf27a87a3fad1674cfa2d344d7943/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/963c46969d9d0a30d094569e79ba2f8a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/ee09953f823295593fce1547e4ee4cf9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/8f1b0c579e1a53ef5ea936ea724ade0e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/15405bd93ad07565002fff1b3624b14c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/60ab0bda1d72c3e2b46b0e4d87a4b0b7/AndroidManifest.xml:17:1-26:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/cf7e4d4411c1b4634d3590f2ee45c11d/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4989ac6b723f7a6a6e006559f7cf0efb/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/9788c49fea5ff1dcbddc5e861e3db4d0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/9350459b4de0903537a18c755d43ffb8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3cac41fffa50de16cb2c9b0ac7f1138a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1085f5865d55fc4ac9e830ffd71e62b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/96bf25db59bef8eece94a99b1e6d48fc/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/be9a3998c2611bd483d2c11aa409f6be/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:2:5-27
+		INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.54.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/96789ee458444c483c777ff396b5d2c4/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.54.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/96789ee458444c483c777ff396b5d2c4/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [:react-native-navigation] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-navigation] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
+MERGED from [com.facebook.react:react-native:0.54.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/96789ee458444c483c777ff396b5d2c4/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.54.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/96789ee458444c483c777ff396b5d2c4/AndroidManifest.xml:13:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/3d19061e5ac7106c3a60c4c126ba837c/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/3d19061e5ac7106c3a60c4c126ba837c/AndroidManifest.xml:12:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/julioceron/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/2a5d722c912d383623a9b10916d49036/AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/julioceron/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/2a5d722c912d383623a9b10916d49036/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/d36463eb09ef1d2ed7badb2f7b047979/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/d36463eb09ef1d2ed7badb2f7b047979/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/8f6df2b35daac622326b910fc71219f9/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/8f6df2b35daac622326b910fc71219f9/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/968f45aa609361c858dc98f8504b3ee5/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/968f45aa609361c858dc98f8504b3ee5/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/33ef055f3ec566749c6f3325e3f19fc4/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/33ef055f3ec566749c6f3325e3f19fc4/AndroidManifest.xml:29:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/83fc46988d166871100daad7066f7066/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/83fc46988d166871100daad7066f7066/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/julioceron/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/5fecf27a87a3fad1674cfa2d344d7943/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/julioceron/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/5fecf27a87a3fad1674cfa2d344d7943/AndroidManifest.xml:2:3-17
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/cf7e4d4411c1b4634d3590f2ee45c11d/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/cf7e4d4411c1b4634d3590f2ee45c11d/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4989ac6b723f7a6a6e006559f7cf0efb/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4989ac6b723f7a6a6e006559f7cf0efb/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/9788c49fea5ff1dcbddc5e861e3db4d0/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/9788c49fea5ff1dcbddc5e861e3db4d0/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/9350459b4de0903537a18c755d43ffb8/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/9350459b4de0903537a18c755d43ffb8/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3cac41fffa50de16cb2c9b0ac7f1138a/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3cac41fffa50de16cb2c9b0ac7f1138a/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1085f5865d55fc4ac9e830ffd71e62b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1085f5865d55fc4ac9e830ffd71e62b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/96bf25db59bef8eece94a99b1e6d48fc/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/96bf25db59bef8eece94a99b1e6d48fc/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/be9a3998c2611bd483d2c11aa409f6be/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/be9a3998c2611bd483d2c11aa409f6be/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.rncourse.MainActivity
+ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:23:7-84
+MERGED from [:react-native-navigation] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
+MERGED from [:react-native-navigation] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from [:react-native-navigation] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-navigation] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.54.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/96789ee458444c483c777ff396b5d2c4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.54.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/96789ee458444c483c777ff396b5d2c4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/3d19061e5ac7106c3a60c4c126ba837c/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/3d19061e5ac7106c3a60c4c126ba837c/AndroidManifest.xml:8:5-10:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/julioceron/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/2a5d722c912d383623a9b10916d49036/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/julioceron/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/2a5d722c912d383623a9b10916d49036/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/d36463eb09ef1d2ed7badb2f7b047979/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/d36463eb09ef1d2ed7badb2f7b047979/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/8f6df2b35daac622326b910fc71219f9/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/8f6df2b35daac622326b910fc71219f9/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/968f45aa609361c858dc98f8504b3ee5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/968f45aa609361c858dc98f8504b3ee5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/33ef055f3ec566749c6f3325e3f19fc4/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/33ef055f3ec566749c6f3325e3f19fc4/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/75e6383b464fe0e4281702a8b686db98/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/75e6383b464fe0e4281702a8b686db98/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/8249be07aad94e99402f377a56e1179b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/8249be07aad94e99402f377a56e1179b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/e6af14fd8f919710396494d701a09ac0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/e6af14fd8f919710396494d701a09ac0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/83fc46988d166871100daad7066f7066/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/83fc46988d166871100daad7066f7066/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/963c46969d9d0a30d094569e79ba2f8a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/963c46969d9d0a30d094569e79ba2f8a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/ee09953f823295593fce1547e4ee4cf9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/ee09953f823295593fce1547e4ee4cf9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/8f1b0c579e1a53ef5ea936ea724ade0e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/8f1b0c579e1a53ef5ea936ea724ade0e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/15405bd93ad07565002fff1b3624b14c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/julioceron/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/15405bd93ad07565002fff1b3624b14c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/60ab0bda1d72c3e2b46b0e4d87a4b0b7/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/60ab0bda1d72c3e2b46b0e4d87a4b0b7/AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/cf7e4d4411c1b4634d3590f2ee45c11d/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/julioceron/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/cf7e4d4411c1b4634d3590f2ee45c11d/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4989ac6b723f7a6a6e006559f7cf0efb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4989ac6b723f7a6a6e006559f7cf0efb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/9788c49fea5ff1dcbddc5e861e3db4d0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/9788c49fea5ff1dcbddc5e861e3db4d0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/9350459b4de0903537a18c755d43ffb8/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/9350459b4de0903537a18c755d43ffb8/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3cac41fffa50de16cb2c9b0ac7f1138a/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3cac41fffa50de16cb2c9b0ac7f1138a/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1085f5865d55fc4ac9e830ffd71e62b/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1085f5865d55fc4ac9e830ffd71e62b/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/96bf25db59bef8eece94a99b1e6d48fc/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/96bf25db59bef8eece94a99b1e6d48fc/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/be9a3998c2611bd483d2c11aa409f6be/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/be9a3998c2611bd483d2c11aa409f6be/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/d36463eb09ef1d2ed7badb2f7b047979/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml
+activity#com.reactnativenavigation.controllers.NavigationActivity
+ADDED from [:react-native-navigation] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-14:86
+	android:configChanges
+		ADDED from [:react-native-navigation] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-83
+	android:name
+		ADDED from [:react-native-navigation] /home/julioceron/Documentos/React_projects/rn-course/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-84
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/d36463eb09ef1d2ed7badb2f7b047979/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/8f6df2b35daac622326b910fc71219f9/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/8f6df2b35daac622326b910fc71219f9/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/968f45aa609361c858dc98f8504b3ee5/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/968f45aa609361c858dc98f8504b3ee5/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/33ef055f3ec566749c6f3325e3f19fc4/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/33ef055f3ec566749c6f3325e3f19fc4/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/60ab0bda1d72c3e2b46b0e4d87a4b0b7/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/60ab0bda1d72c3e2b46b0e4d87a4b0b7/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4989ac6b723f7a6a6e006559f7cf0efb/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4989ac6b723f7a6a6e006559f7cf0efb/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/9788c49fea5ff1dcbddc5e861e3db4d0/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/9788c49fea5ff1dcbddc5e861e3db4d0/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/9350459b4de0903537a18c755d43ffb8/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/9350459b4de0903537a18c755d43ffb8/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3cac41fffa50de16cb2c9b0ac7f1138a/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3cac41fffa50de16cb2c9b0ac7f1138a/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1085f5865d55fc4ac9e830ffd71e62b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1085f5865d55fc4ac9e830ffd71e62b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/96bf25db59bef8eece94a99b1e6d48fc/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/96bf25db59bef8eece94a99b1e6d48fc/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/be9a3998c2611bd483d2c11aa409f6be/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/be9a3998c2611bd483d2c11aa409f6be/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/d36463eb09ef1d2ed7badb2f7b047979/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /home/julioceron/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/d36463eb09ef1d2ed7badb2f7b047979/AndroidManifest.xml:26:9-47
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/julioceron/Documentos/React_projects/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
