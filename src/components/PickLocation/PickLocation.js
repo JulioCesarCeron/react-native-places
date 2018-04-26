@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import { View, Image, Button, Text, StyleSheet } from 'react-native';
+import MapView from 'react-native-maps';
 
 class PickLocation extends Component {
     render() {
         return (
-            <View style={styles.container} >
-                <View style={styles.placeholder}>
-                    <Text>Map</Text>
-                </View>
+            <View style={styles.container}>
+                <MapView />
                 <View style={styles.button}>
-                    <Button title="Locate Me" onPress={() => alert('Pick location')} />
+                    <Button
+                        title="Locate Me"
+                        onPress={() => alert('Pick location')}
+                    />
                 </View>
             </View>
         );
@@ -19,7 +21,7 @@ class PickLocation extends Component {
 const styles = StyleSheet.create({
     container: {
         width: '100%',
-        alignItems: 'center'
+        alignItems: 'center',
     },
     placeholder: {
         borderWidth: 1,
@@ -30,7 +32,7 @@ const styles = StyleSheet.create({
     },
     button: {
         margin: 8,
-    }
+    },
 });
 
 export default PickLocation;
