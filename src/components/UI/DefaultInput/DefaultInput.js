@@ -1,15 +1,17 @@
 import React from 'react';
 import { TextInput, StyleSheet } from 'react-native';
 
-const DefaultInput = props => {
-    return (
-        <TextInput
-            underlineColorAndroid="transparent"
-            {...props}
-            style={[styles.input, props.style]}
-        />
-    );
-};
+const defaultInput = props => (
+    <TextInput
+        underlineColorAndroid="transparent"
+        {...props}
+        style={[
+            styles.input,
+            props.style,
+            !props.valid && props.touched ? styles.invalid : null,
+        ]}
+    />
+);
 
 const styles = StyleSheet.create({
     input: {
@@ -17,9 +19,13 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: '#eee',
         padding: 5,
-        marginTop: 4,
-        marginBottom: 4,
+        marginTop: 8,
+        marginBottom: 8,
+    },
+    invalid: {
+        backgroundColor: '#f9c0c0',
+        borderColor: 'red',
     },
 });
 
-export default DefaultInput;
+export default defaultInput;
