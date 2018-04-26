@@ -1,21 +1,43 @@
 import React from 'react';
-import { TouchableHighlight, Text, View, StyleSheet } from 'react-native'
+import {
+    TouchableOpacity,
+    TouchableNativeFeedback,
+    Text,
+    View,
+    StyleSheet,
+    Platform,
+} from 'react-native';
 
 const ButtonWithBackground = props => {
-    return (
-        <TouchableHighlight onPress={props.onPress} >
-            <View style={[styles.button, {backgroundColor: props.color}]}>
-                <Text>{props.children}</Text>
-            </View>
-        </TouchableHighlight>
+    const content = (
+        <View style={[styles.button, { backgroundColor: props.color }]}>
+            <Text>{props.children}</Text>
+        </View>
     );
+
+    if (Platform.OS === 'android') {
+        return (
+            <TouchableOpacity onPress={props.onPress}>
+                {content}
+            </TouchableOpacity>
+        );
+    } else {
+        return (
+            <TouchableNativeFeedback onPress={props.onPress}>
+                {content}
+            </TouchableNativeFeedback>
+        );
+    }
 };
 
 const styles = StyleSheet.create({
-    button:{
+    button: {
         padding: 10,
-        margin: 5
-    }
-})
+        margin: 5,
+        borderRadius: 5,
+        borderWidth: 1,
+        borderColor: 'black',
+    },
+});
 
 export default ButtonWithBackground;

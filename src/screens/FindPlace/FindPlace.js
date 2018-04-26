@@ -5,13 +5,16 @@ import { connect } from 'react-redux';
 import PlaceList from '../../components/PlaceList/PlaceList';
 
 class FindPlaceScreen extends Component {
+    static navigatorStyle = {
+        navBarButtonColor: 'orange'
+    }
+
     constructor(props, context) {
         super(props, context);
         this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent)
     }
     
     onNavigatorEvent = event => {
-        console.log('event', event)
         if (event.type === 'NavBarButtonPress') {
             if (event.id === 'sideDrawerToggle') {
                 this.props.navigator.toggleDrawer({

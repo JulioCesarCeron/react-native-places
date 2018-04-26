@@ -1,11 +1,12 @@
 import { Navigation } from 'react-native-navigation';
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import { Platform } from 'react-native';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 const startMainTabs = () => {
     Promise.all([
-        Icon.getImageSource('map', 30),
-        Icon.getImageSource('share', 30),
-        Icon.getImageSource('menu', 30),
+        Icon.getImageSource(Platform.OS === 'android' ? 'md-map' : 'ios-map', 30),
+        Icon.getImageSource(Platform.OS === 'android' ? 'md-share-alt' : 'ios-share', 30),
+        Icon.getImageSource(Platform.OS === 'android' ? 'md-menu' : 'ios-menu', 30),
     ]).then(sources => {
         Navigation.startTabBasedApp({
             tabs: [
@@ -19,9 +20,9 @@ const startMainTabs = () => {
                             {
                                 icon: sources[2],
                                 title: 'Menu',
-                                id: 'sideDrawerToggle'
-                            }
-                        ]
+                                id: 'sideDrawerToggle',
+                            },
+                        ],
                     },
                 },
                 {
@@ -32,19 +33,25 @@ const startMainTabs = () => {
                             {
                                 icon: sources[2],
                                 title: 'Menu',
-                                id: 'sideDrawerToggle'
-                            }
-                        ]
+                                id: 'sideDrawerToggle',
+                            },
+                        ],
                     },
                     label: 'Share Place',
                     title: 'Share Place',
                 },
             ],
+            tabsStyle: {
+                tabBarSelectedButtonColor: 'orange',
+            },
+            appStyle: {
+                tabBarSelectedButtonColor: 'orange',
+            },
             drawer: {
                 left: {
                     screen: 'awesome-places.SideDrawer',
-                }
-            }
+                },
+            },
         });
     });
 };
