@@ -8,6 +8,7 @@ const rootReducer = combineReducers({
 
 const composeEnhancers = compose
 
+// only dev mode for RN Debugger, remove this in production mode
 if (__DEV__) {
     composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 }

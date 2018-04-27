@@ -6,7 +6,7 @@ const PlaceInput = props => {
     return (
         <DefaultInput
             placeholder="Place Name"            
-            onChangeText={props.placeNameChangedHandler}
+            onChangeText={props.onChangeText}
             ref={props.refAttch}
         />
     );
