@@ -12,11 +12,6 @@ export const addPlace = (placeName, location, image) => {
                 }),
             }
         )
-        .catch(err => {
-            console.log(err)
-            alert('Something went wrong, please try again!')
-            dispatch(uiStopLoading())
-        })
         .then(res => res.json())
         .then(parsedRes => {
             const placeData = {
@@ -29,11 +24,6 @@ export const addPlace = (placeName, location, image) => {
                 body: JSON.stringify(placeData)
             })
         })
-        .catch(err => {
-            console.log(err)
-            alert('Something went wrong, please try again!')
-            dispatch(uiStopLoading())
-        })
         .then(res => res.json())
         .then(parsedRes => {
             console.log(parsedRes)
@@ -44,8 +34,9 @@ export const addPlace = (placeName, location, image) => {
 
 export const getPlaces = () => {
     return dispatch => {
-        fetch('https://react-native-places-eee90.firebaseio.com/places.json').then(res => res.json()).then(parsedRes => {
-            
+        fetch('https://react-native-places-eee90.firebaseio.com/places.json')
+        .then(res => res.json())
+        .then(parsedRes => {    
             console.log(parsedRes)
         const places = []
             for (let key in parsedRes) {
@@ -70,8 +61,25 @@ export const setPlaces = places => {
 }
 
 export const deletePlace = key => {
+    return dispatch => {
+        dispatch(removePlace(key));
+        fetch("https://awesome-places-1511248766522.firebaseio.com/places/" + key + ".json", {
+            method: "DELETE"
+        }) 
+        .then(res => res.json())
+        .then(parsedRes => {
+            console.log("Done!");
+        })
+        .catch(err => {
+            alert("Something went wrong, sorry :/");
+            console.log(err);
+        });
+    };
+};
+
+export const removePlace = key => {
     return {
-        type: DELETE_PLACE,
-        placeKey: key,
+        type: REMOVE_PLACE,
+        key: key
     };
 };
