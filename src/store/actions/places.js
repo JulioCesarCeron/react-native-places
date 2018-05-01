@@ -44,24 +44,20 @@ export const addPlace = (placeName, location, image) => {
 
 export const getPlaces = () => {
     return dispatch => {
-        fetch('https://react-native-places-eee90.firebaseio.com/places.json')
-        .then(err => {
-            alert("Somenthing went wrong, sorry :/")
-            console.log(err)
-        })
-        .then(res => res.json())
-        .then(parsedRes => {
-            const places = []
+        fetch('https://react-native-places-eee90.firebaseio.com/places.json').then(res => res.json()).then(parsedRes => {
+            
+            console.log(parsedRes)
+        const places = []
             for (let key in parsedRes) {
                 places.push({
                     ...parsedRes[key],
                     image: {
                         uri: parsedRes[key].image
                     },
-                    id: key
+                    key: key
                 })
             }
-            dispatch(setPlaces())
+            dispatch(setPlaces(places))
         })
     }
 }
