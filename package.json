@@ -21,6 +21,7 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "firebase-tools": "^3.18.4",
     "react": "16.3.0",
     "react-native": "~0.54.1",
     "react-native-image-picker": "^0.26.7",
@@ -28,6 +29,7 @@
     "react-native-navigation": "^1.1.446",
     "react-native-vector-icons": "^4.6.0",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.0"
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0"
   }
 }

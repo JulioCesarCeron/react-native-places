@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/julioceron/Documentos/React_projects/rn-course/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
+            "outputFile": "/home/julio/Documentos/React/react-native-places/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
             "map": [
                 {
-                    "source": "/home/julioceron/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/cd24f484d9ca323d939e722b6955dd48/res/values-eu/values.xml",
+                    "source": "/home/julio/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/c09d9e06f2853397d5be1535c1bc526c/res/values-eu/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/julioceron/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/fa07a984b583d788a8132b62480d8550/res/values-eu/values.xml",
+                    "source": "/home/julio/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/f3da04e20f5d5bea0dea0b988f44b784/res/values-eu/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

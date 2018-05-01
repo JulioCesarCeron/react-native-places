@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/julioceron/Documentos/React_projects/rn-course/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
+            "outputFile": "/home/julio/Documentos/React/react-native-places/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
             "map": [
                 {
-                    "source": "/home/julioceron/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/fa07a984b583d788a8132b62480d8550/res/values-ms/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "285",
-                        "endColumns": "204",
-                        "endOffsets": "489"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "1159",
-                        "endColumns": "204",
-                        "endOffsets": "1359"
-                    }
-                },
-                {
-                    "source": "/home/julioceron/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/cd24f484d9ca323d939e722b6955dd48/res/values-ms/values.xml",
+                    "source": "/home/julio/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/c09d9e06f2853397d5be1535c1bc526c/res/values-ms/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,213,418,550,658,889,1023,1364,1608,1719,1925,2062,2292,2497,2594,2688",
                         "endColumns": "107,204,131,107,230,133,135,243,110,205,136,229,204,96,93,111",
                         "endOffsets": "208,413,545,653,884,1018,1154,1603,1714,1920,2057,2287,2492,2589,2683,2795"
+                    }
+                },
+                {
+                    "source": "/home/julio/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/f3da04e20f5d5bea0dea0b988f44b784/res/values-ms/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "204",
+                        "endOffsets": "489"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "1159",
+                        "endColumns": "204",
+                        "endOffsets": "1359"
                     }
                 }
             ]

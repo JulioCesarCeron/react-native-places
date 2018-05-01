@@ -1,20 +1,22 @@
-import { createStore, combineReducers, compose } from 'redux';
+import { createStore, combineReducers, compose, applyMiddleware } from "redux";
+import thunk from "redux-thunk";
 
-import placesReducer from './reducers/places';
+import placesReducer from "./reducers/places";
+import uiReducer from "./reducers/ui";
 
 const rootReducer = combineReducers({
-    places: placesReducer
+  places: placesReducer,
+  ui: uiReducer
 });
 
-const composeEnhancers = compose
+let composeEnhancers = compose;
 
-// only dev mode for RN Debugger, remove this in production mode
 if (__DEV__) {
-    composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
+  composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 }
 
 const configureStore = () => {
-    return createStore(rootReducer, composeEnhancers());
+  return createStore(rootReducer, composeEnhancers(applyMiddleware(thunk)));
 };
 
 export default configureStore;

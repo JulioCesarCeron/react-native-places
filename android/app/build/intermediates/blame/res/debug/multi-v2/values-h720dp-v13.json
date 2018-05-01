@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/julioceron/Documentos/React_projects/rn-course/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "/home/julio/Documentos/React/react-native-places/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/julioceron/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/8f6df2b35daac622326b910fc71219f9/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/home/julio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/fd29ec100a10cc5a37da6d0c68c4e307/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
