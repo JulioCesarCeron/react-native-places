@@ -49,6 +49,8 @@ export const getPlaces = () => {
                 })
             }
             dispatch(setPlaces(places))
+        }).catch(err => {
+            alert('Something went wrong, sorry :/')
         })
     }
 }
